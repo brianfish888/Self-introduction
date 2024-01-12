@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+.HeaderTitle {
+  font-size: 2.5rem;
+}
+.HeaderText {
+  font-size: 1rem;
+}
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1rem;
+}
+nav {
+  background-color: #002b48;
+}
+nav ul {
+  display: flex;
+  padding-left: 2rem;
+  list-style-type: none;
+}
+nav ul li {
+  display: flex;
+}
+nav ul li a {
+  padding: 1rem 1rem;
+  color: white;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+nav ul li a:hover {
+  background-color: gray;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.left {
+  padding: 1rem;
+  align-items: center;
+  flex: 4 1 350px;
+}
+
+section.left h1 {
+  font-size: 3rem;
+  text-align: center;
+  flex: 1 1 250px;
+}
+section.left h2 {
+  padding: 1rem;
+  text-align: center;
+}
+section.left p {
+  font-size: 1.5rem;
+  text-align: center;
+}
